@@ -12,7 +12,7 @@ p {
 
 @media(max-width: 1500px){
     p {
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: bolder;
         font-family: 'Montserrat';
         color: #8f8f8f;
@@ -32,6 +32,7 @@ h1 {
         font-weight: bolder;
         line-height: 1;
         font-size: 2rem;
+        text-align: center;
     }
 
 }
@@ -95,7 +96,10 @@ h2 {
     .title-image {
         transform: rotate(0deg);
         position: relative;
-        right: 20%;
+        margin-left: 40%;
+        height: 425px;
+        width: 200px;
+        
         
     }
 }
@@ -155,6 +159,18 @@ h2 {
     
 }
 
+@media(max-width: 1500px){
+    .testimonials-carousel-h2 {
+        padding: 10px;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-weight: bolder;
+        line-height: 2rem;
+        color: white;
+        
+    }
+}
+
 .testimonials-carousel-name {
     padding: 10px;
     font-family: Montserrat;
@@ -187,6 +203,16 @@ h2 {
     font-size: 4rem;
     font-weight: bolder;
     line-height: 5rem;    
+}
+
+@media(max-width: 1500px){
+    .pricing-h2 {
+        /* padding: 10px; */
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-weight: bolder;
+        line-height: 2rem;    
+    }
 }
 
 .pricing-p {
