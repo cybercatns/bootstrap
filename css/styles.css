@@ -10,7 +10,7 @@ p {
     color: #8f8f8f;
 }
 
-@media(max-width: 900px){
+@media(max-width: 1500px){
     p {
         font-size: 0.5rem;
         font-weight: bolder;
@@ -26,7 +26,7 @@ h1 {
     font-size: 5rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1500px) {
     h1 {
         font-family: 'Montserrat', sans-serif;
         font-weight: bolder;
@@ -43,7 +43,7 @@ h2 {
     font-size: 5rem;
 }
 
-@media(max-width: 900px){
+@media(max-width: 1500px){
     h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: bolder;
@@ -91,7 +91,7 @@ h2 {
     
 }
 
-@media(max-width: 900px){
+@media(max-width: 1500px){
     .title-image {
         transform: rotate(0deg);
         position: relative;
