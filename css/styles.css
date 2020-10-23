@@ -1,0 +1,185 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    color: #8f8f8f;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 5rem;
+}
+
+#title {
+    background-color: #ef8172;
+    color: white;
+}
+
+.container-fluid {
+    padding: 0% 15% 5%; 
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.navbar {
+    padding: 0 0 5rem;
+}
+
+.nav-item {
+    padding: 18px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Montserrat',
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+    
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.features-container {
+    padding: 10% 15%;
+    text-align: center;
+  
+}
+
+.feature-boxes-h3 {
+    padding: 10px;
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.feature-boxes-p {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+    color: #8f8f8f;
+}
+
+.feature-icon {
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.feature-icon:hover {
+    color: red;
+}
+
+/* Testimonials Section */
+
+#testimonialsCarousel {
+    padding: 5% 15%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.testimonials-carousel-h2 {
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 5rem;
+    color: white;
+    
+}
+
+.testimonials-carousel-name {
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 5rem;
+    color: white;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.press-image {
+    padding: 1%;
+}
+
+
+/* Pricing Section  */
+
+#pricing {
+    padding: 5% 15%;
+
+}
+
+.pricing-h2 {
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 5rem;    
+}
+
+.pricing-p {
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    line-height: 5rem; 
+    color: #8f8f8f;   
+}
+
+/* Call to Action Section  */
+
+#cta {
+    padding: 5% 15%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.cta-h3 {
+    color: white;
+    padding: 5% 5%;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+/* Footer section */
+
+#footer {
+    padding: 1% 15%;
+    text-align: center;
+}
